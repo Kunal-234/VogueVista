@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+.back a {
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    color: gray;
+    border: none;
+    text-decoration: none;
+}
+
+.back a:hover {
+
+    color: white;
+}
+
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px black;
+    height: 77vh;
+    width: 80vmin;
+    backdrop-filter: blur(5px);
+    color: white;
+    margin-left: 40vh;
+    margin-top: 8vh;
+}
+
+#logHead {
+    font-family: Poppins;
+    margin: 30px;
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 10px rgb(4, 14, 90);
+}
+
+.data {
+    margin-top: 100px;
+    position: relative;
+}
+
+.data input {
+    border: none;
+    box-shadow: 0px 0px 3px rgb(212, 211, 211);
+    border-radius: 20px;
+    height: 120%;
+    width: 35vw;
+    padding: 2px;
+    padding-left: 12px;
+    background: transparent;
+    color: white;
+    font-size: 1.4rem;
+
+
+
+
+}
+
+.data input:hover {
+    box-shadow: 0px 0px 3px white;
+    transform: translateY(2px);
+    transition: 0.6s;
+
+}
+
+.data input::placeholder {
+    opacity: 0.7;
+    color: aliceblue;
+}
+
+.cont div {
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.logbtn {
+    border: none;
+    border-radius: 20px;
+    height: 125%;
+    width: 35vw;
+    background-color: white;
+    padding: 2px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+.logbtn:hover {
+    color: white;
+    background-color: rgb(6, 2, 68);
+    /* box-shadow: 0px 0px 5px black; */
+}
+
+.signup {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.signup:hover {
+    text-decoration: underline;
+    color: rgb(9, 117, 218);
+}
+
+.forgot a {
+    text-decoration: none;
+    color: rgb(212, 210, 216);
+
+}
+
+.forgot a:hover {
+    color: white;
+}
+
+#icon {
+    position: absolute;
+    margin: 17px;
+    right: 10px;
+    opacity: 0.8;
+
+}
+.main{
+margin: 0px 10vw;
+margin-bottom: 200px;
+}

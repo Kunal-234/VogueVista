@@ -1,0 +1,34 @@
+.productdisplay{
+    display: flex;
+    margin: 0px 170px;
+    margin-bottom: 400px;
+}
+.productdisplay-left{
+    display: flex;
+    gap:17px;
+}
+.img-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.img-list img{
+    height: 121px;
+    border-radius: 5px;
+
+}
+.main-img{
+    width: 426px;
+    height: 531px;
+    border-radius: 10px;
+}
+
+.old-price{
+    font-size:1.9rem;
+    text-decoration:line-through;
+    margin-left: 15px;
+    color: rgb(84, 87, 85);
+}
+.star{
+    height: 20px;
+}

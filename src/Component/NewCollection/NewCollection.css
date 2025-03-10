@@ -1,0 +1,21 @@
+.collections{
+    /* height: 10vh;
+    width: 10vw; */
+    gap: 20px;
+}
+.new-collections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+    justify-content: center;
+}
+.new-collections hr{
+    margin: 0;
+    background-color: black;
+    width: 280px;
+  
+}
+.new-collections h1{
+    font-size: 4rem;
+}

@@ -1,0 +1,26 @@
+
+.nav-link{
+    font-family: poppins;
+    transition: transform 0.3s ease , color 0.3s ease ;
+    /* font-weight: 120; */
+}
+
+.nav-link:hover{
+   transform: translateY(-9px);
+}
+.logout-btn{
+    border: 2px solid rgb(7, 7, 14);
+    border-radius: 90px;
+    padding: 4px 19px;
+    color:rgb(5, 5, 14) ;
+    font-size: 1.2rem;
+}
+.logout-btn:hover{
+    background-color:rgb(4, 5, 10)  ;
+    color: white;
+}
+.cart-img:hover{
+    transform: scale(1.05);
+    transition: 0.1s;
+
+}
