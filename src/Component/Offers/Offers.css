@@ -47,3 +47,11 @@ justify-content: flex-end;
 padding-top: 50px;
 
 }
+
+@media screen and (max-width:480px){
+
+    .offers{
+   display: none;
+}
+
+}
