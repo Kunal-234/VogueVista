@@ -69,3 +69,70 @@ p{
     background: linear-gradient(#c56ef4,rgb(11, 191, 227),rgb(11, 191, 227),rgb(11, 191, 227),rgb(11, 191, 227),rgb(11, 191, 227));
     height: 500vh;
 } */
+
+@media screen and (max-width:480px){
+
+    .hero{
+        display: flex;
+        width: 100vw;
+    }
+    .hero-img{
+        height:62vh;
+        margin: 40px 0px;
+        display: none;
+        /* inset: 0;
+        z-index: -11;
+        position: absolute; */
+    
+    }
+  
+    .hero-left{
+        /* height: 70vh; */
+        margin: 20px;
+        margin-top: 85px;
+    }
+    .hero-left p{
+        font-size: 4rem;
+    
+    }
+ 
+    .hand-hand-icon{
+        display: flex;
+    }
+    .hand-hand-icon>img{
+        height:80px ;
+        margin: 18px 0px 10px 10px;
+        transition: transform 0.3s ease , color 0.3s ease ;
+    
+    }
+    .hand-hand-icon img:hover{
+        transform: translateY(-9px);
+    }
+    .hero-latest-btn{
+        display: flex;
+        border: 1px solid black;
+        border-radius: 40px;
+        /* padding: 8px 33px; */
+        color: white;
+        background-color: black;
+        font-weight: 500;
+        font-size: 1rem;
+        width: 81%;
+        margin-top: 10px;
+        padding-top: 15px;
+    }
+    .arrow{
+        margin-left: 15px;
+        width: 35px;
+        height: 15px;
+        margin: 9px;
+        margin-top: 4px;
+    
+    }
+    .hero-latest-btn:hover{
+        background-color: rgb(16, 3, 76);
+        transform: translateX(3px);
+    
+    }
+    
+}
